@@ -391,7 +391,7 @@ nav .titreorange {
 }
 
 #site {
-  background-image: url("/img/photo-site-web.jpg");
+  background-image: url("../img/photo-site-web.jpg");
 }
 
 .contenu {
@@ -442,11 +442,11 @@ nav .titreorange {
 }
 
 #video {
-  background-image: url("/img/vidéo.jpg");
+  background-image: url("../img/vidéo.jpg");
 }
 
 #code {
-  background-image: url("/img/code.jpg");
+  background-image: url("../img/code.jpg");
 }
 
 /* === Footer === */
