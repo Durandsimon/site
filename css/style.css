@@ -353,7 +353,7 @@ nav .titreorange {
   z-index: 2;
   left: 25vw;
   text-align: center;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 #crea .bloc-noir #titre-bloc-noir {
   font-size: 4.5vw;
@@ -370,7 +370,7 @@ nav .titreorange {
 
 #contact {
   background-color: #000;
-  padding-bottom: 2vw;
+  padding-bottom: 5vw;
 }
 #contact p {
   font-size: 3vw;
