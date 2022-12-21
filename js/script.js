@@ -1,11 +1,11 @@
 
 
 
-intervalle = setInterval(traitnoir1, 500);
-intervalle = setInterval(traitnoir2, 600);
-intervalle = setInterval(traitnoir3, 700);
-intervalle = setInterval(traitnoir4, 800);
-intervalle = setInterval(traitnoir5, 900);
+intervalle = setInterval(traitnoir1, 300);
+intervalle = setInterval(traitnoir2, 400);
+intervalle = setInterval(traitnoir3, 500);
+intervalle = setInterval(traitnoir4, 600);
+intervalle = setInterval(traitnoir5, 700);
 
 function traitnoir1() {
     document.querySelector('#trait1').style.top = '14vw';
