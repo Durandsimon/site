@@ -441,7 +441,7 @@ nav .titreorange {
 }
 
 .vidéo3-real {
-  width: 100%;
+  width: 95%;
 }
 
 #video {
@@ -491,9 +491,6 @@ footer a {
   }
   nav a {
     font-size: 15px;
-  }
-  .vidéo2-real {
-    width: 50vw;
   }
   .block-textvideo {
     display: flex;
