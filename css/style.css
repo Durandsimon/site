@@ -459,6 +459,11 @@ nav .titreorange {
   background-size: cover;
 }
 
+#affiche {
+  background-image: url("../img/affiche.jpg");
+  background-size: cover;
+}
+
 /* === Footer === */
 footer {
   background-color: #000;
