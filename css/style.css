@@ -271,7 +271,7 @@ nav .titreorange {
 }
 #qsj h4 {
   position: absolute;
-  font-size: 18vw;
+  font-size: 16vw;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   color: transparent;
   text-align: center;
@@ -327,7 +327,7 @@ nav .titreorange {
   text-transform: uppercase;
   margin: 0 auto;
   position: absolute;
-  font-size: 15vw;
+  font-size: 13vw;
 }
 #crea h6 {
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
