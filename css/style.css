@@ -68,11 +68,16 @@ a:hover {
 }
 
 /* Titre  */
+h1 {
+  font-family: "Hind", sans-serif;
+  text-transform: uppercase;
+}
+
 h3 {
   color: white;
   font-family: "Teko", sans-serif;
   font-weight: 400;
-  font-size: 2vw;
+  font-size: 4vw;
   padding: 7vw 0 7vw 0;
   z-index: 1;
   text-align: left;
@@ -80,11 +85,15 @@ h3 {
 }
 
 p {
-  font-family: "Teko", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.5vw;
   line-height: 2.5vw;
   letter-spacing: 0.05vw;
+}
+
+.text-de-fond {
+  font-family: "Hind", sans-serif;
 }
 
 .bordure-orange {
@@ -262,7 +271,7 @@ nav .titreorange {
 }
 #qsj h4 {
   position: absolute;
-  font-size: 20vw;
+  font-size: 18vw;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   color: transparent;
   text-align: center;
@@ -276,9 +285,9 @@ nav .titreorange {
 }
 #qsj p {
   color: white;
-  font-family: "Teko", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   line-height: 2.5vw;
   z-index: 1;
 }
@@ -318,7 +327,7 @@ nav .titreorange {
   text-transform: uppercase;
   margin: 0 auto;
   position: absolute;
-  font-size: 17vw;
+  font-size: 15vw;
 }
 #crea h6 {
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
@@ -375,7 +384,7 @@ nav .titreorange {
   padding-bottom: 5vw;
 }
 #contact p {
-  font-size: 3vw;
+  font-size: 2vw;
   margin: 0 auto;
   text-transform: uppercase;
   margin-top: 1vw;

@@ -5,7 +5,9 @@ $second-color : #F1A027;
 
 $first-font :'Anton', sans-serif;
 $main-font : 'Teko', sans-serif;
-$seconde-font : 'antonio' , sans-serif;
+$seconde-font : 'Source Code Pro', monospace;
+$text-font : 'Roboto', sans-serif;
+$back-font : 'Hind', sans-serif;
 
 
 /* === Mise en page général === */
@@ -82,11 +84,16 @@ html{
     
     /* Titre  */
 
+    h1{
+        font-family: $back-font;
+        text-transform: uppercase;
+    }
+
     h3{
         color: white;
         font-family: $main-font;
         font-weight: 400;
-        font-size: 2vw;
+        font-size: 4vw;
         padding: 7vw 0 7vw 0;
         z-index: 1;
         text-align: left;
@@ -94,12 +101,18 @@ html{
     }
 
     p{
-        font-family: $main-font;
+        font-family: $text-font;
         font-weight: 400; 
         font-size: 1.5vw;
         line-height: 2.5vw;
         letter-spacing: 0.05vw;
     }
+
+    .text-de-fond{
+        font-family: $back-font;
+    }
+
+    
 
 
     // décoration 
@@ -274,7 +287,7 @@ html{
         
         h4{
             position: absolute;
-            font-size: 20vw;
+            font-size: 18vw;
             -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
             color: transparent;
             text-align: center;
@@ -289,9 +302,9 @@ html{
         }
         p{
             color: white;
-            font-family: $main-font;
+            font-family: $text-font;
             font-weight: 400; 
-            font-size: 1.5vw;
+            font-size: 1.3vw;
             line-height: 2.5vw;
             z-index: 1;
         }
@@ -338,7 +351,7 @@ html{
             text-transform: uppercase;
             margin: 0 auto;
             position: absolute;
-            font-size: 17vw;
+            font-size: 15vw;
         }
         h6{
         -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
@@ -401,7 +414,7 @@ html{
         background-color: $main-color;
         padding-bottom: 5vw;
         p{
-            font-size: 3vw;
+            font-size: 2vw;
             margin: 0 auto;
             text-transform: uppercase;
             margin-top: 1vw;
