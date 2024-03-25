@@ -26,3 +26,4 @@ function traitnoir4() {
 function traitnoir5() {
     document.querySelector('#trait5').style.top = '14vw';
 }
+

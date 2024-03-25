@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* === Mise en page général === */
 html {
-  font-family: "Teko", sans-serif;
+  font-family: "Hind", sans-serif;
 }
 
 body {
@@ -30,7 +30,6 @@ a:hover {
 .container {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 5%;
 }
 
 .flex {
@@ -41,6 +40,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+
 
 .flex-container2 {
   display: flex;
@@ -76,7 +76,7 @@ h1 {
 
 h3 {
   color: white;
-  font-family: "Teko", sans-serif;
+  font-family: "Hind", sans-serif;
   font-weight: 400;
   font-size: 4vw;
   padding: 7vw 0 7vw 0;
@@ -86,9 +86,9 @@ h3 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Hind", sans-serif;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   line-height: 2.5vw;
   letter-spacing: 0.05vw;
 }
@@ -385,7 +385,7 @@ nav .titreorange {
   padding-bottom: 5vw;
 }
 #contact p {
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin: 0 auto;
   text-transform: uppercase;
   margin-top: 1vw;
@@ -411,6 +411,13 @@ nav .titreorange {
   margin-top: 10vh;
   margin-bottom: 15vh;
 }
+
+.contenu-black {
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+  background-color: #000;
+}
+
 .contenu h3 {
   color: #000;
   padding: 0;
@@ -418,9 +425,17 @@ nav .titreorange {
 .contenu a {
   color: #F1A027;
 }
+
+#white:hover {
+  transition-duration: 300ms;
+  color: white;
+}
+
 .contenu a:hover {
   color: #000;
 }
+
+
 
 .contenu-dark {
   background-color: #000;
@@ -451,7 +466,15 @@ nav .titreorange {
 }
 
 .vidéo3-real {
-  width: 95%;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  opacity: 0.6;
+  transition-duration: 300ms;
+}
+
+.vidéo3-real:hover {
+  opacity: 1;
 }
 
 #video {
@@ -474,6 +497,32 @@ nav .titreorange {
   background-size: cover;
 }
 
+/* Page video */
+
+
+.text-video{
+  z-index: 0;
+  display: none;
+  color: #FFF;
+  background-color: #000;
+  padding-left: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  transition-duration: 500ms;
+}
+
+/* fleche */
+
+.fleche{
+  width: 20px;
+  transition-duration: 500ms;
+}
+
+.bouton-fleche{
+  padding: 5% 5% 5% 5% ;
+  background-color: #000;
+}
+
 /* === Footer === */
 footer {
   background-color: #000;
@@ -491,17 +540,17 @@ footer a {
 @media (max-width: 768px) {
   p {
     font-size: 15px;
-    font-family: "Teko", sans-serif;
+    font-family: "Hind", sans-serif;
     font-weight: 400;
     line-height: 4vh;
     letter-spacing: 0.05vw;
   }
   h3 {
-    font-family: "Teko", sans-serif;
+    font-family: "Hind", sans-serif;
     font-size: 20px;
   }
   nav h3 {
-    font-family: "Teko", sans-serif;
+    font-family: "Hind", sans-serif;
     font-size: 15px;
   }
   nav a {
@@ -549,7 +598,14 @@ footer a {
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
+
+
+
   #crea .bloc-noir #titre-bloc-noir {
     margin: 10vw 0 0 0;
   }
+
+
+
+
 }/*# sourceMappingURL=style.css.map */
