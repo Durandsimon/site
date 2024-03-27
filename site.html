@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +28,7 @@
 
     <!-- Header  -->
     <header>
-        <nav class="container flex-container">
+        <nav class="dark flex-container">
             <div class="flex-container">
                 <a href="./index.html" ><h3>DURAND</h3></a>
                 <a href="./index.html" ><h3 class="titreorange">SIMON</h3></a>
@@ -48,7 +51,7 @@
 
     <!-- main  -->
 
-    <main>
+    <main  style="background-color: black;">
         <!-- hero -->
         <section id="site">
             <div>
@@ -61,101 +64,92 @@
         </section>
 
         
-        <section class="contenu">
-            
-            <div class="container flex-container2 block-textvideo2">
-                <div class="vidéo2-real flex">
-                    <img class="vidéo2-real" src="./img/terdici-site.png" >
+        <section class="contenu-black contenu">
+            <div class="container flex-container2" style="flex-direction: column;">
+
+                <!-- video 1 -->
+                <div class="flex">
+                    <img class="vidéo3-real" src="./img/terdici-site.png" >
                 </div>
-                <div id="texte-crea2">
-                    <div>
-                        <h3>
-                            Terdici
-                        </h3>
-                        <p>
-                            Durant mon alterance lors de mon année de bachelor création numérique j'ai dû réaliser le site web de 
-                            l'entreprise dans laquelle j'étais. <br>
-                            Ce site à été réalisé sur wordpress. <br>
-                            <a href="https://www.terdici-agri.fr/">Rendez-vous directement sur le site !</a>
-                        </p>
-                    </div>
-                </div>  
-            </div>
-            
-        </section>
-
-        <section class="contenu">
-            <div class="container flex-container block-textvideo">
-                <div id="texte-crea">
-                    <div>
-                        <h3>
-                            Castel Menuiserie
-                        </h3>
-                        <p>Basée à Châteaugiron, cette entreprise de menuiserie est la plus grosse entreprise
-                            avec laquelle j'ai eu la possibilité de travailler.<br>
-                            En effet, lors de mon stage de deuxième année de BTS SIO dans l'agence RennesCom
-                            j'ai eu la chance de refonder leur <a href="https://castelmenuiserie.com/">site web</a>
-                            grâce au CMS WordPress et au plugin Oxygen. <br>
-
-                        </p>
+                <div id="zone1" class="bouton-fleche">
+                    <div id="fleche1" class="fleche">
+                        <img src="./img/fleche-orange.png" >
                     </div>
                 </div>
-                <div class="vidéo2-real aligner-gauche">
-                    <video class="vidéo2-real" src="./video/castel.mp4" autoplay loop muted >
+                
+                <div class="text-video" id="text-video-1">
+                    <h4 class="white">Terdici</h4>
+                    <p>Durant mon alterance lors de mon année de bachelor création numérique j'ai dû réaliser le site web de 
+                        l'entreprise dans laquelle j'étais. <br>
+                        Ce site à été réalisé sur wordpress. <br>
+                        <a href="https://www.terdici-agri.fr/">Rendez-vous directement sur le site !</a></p>
                 </div>
-            </div>
-            
-        </section>
 
 
-        <section class="contenu">
-            <div class="container flex-container2 block-textvideo2">
-                <div class="vidéo2-real flex">
-                    <video class="vidéo2-real" src="./video/lairys.mp4" autoplay loop muted >
+                <!-- video 2 -->
+                <div class="flex">
+                    <video class="vidéo3-real" src="./video/castel.mp4" autoplay loop muted >
                 </div>
-                <div id="texte-crea2">
-                    <div>
-                        <h3>
-                            Lairys Déco
-                        </h3>
-                        <p>
-                            Durant mon premier stage de BTS, j'ai eu l'opportunité de travailler avec Lairys Déco, entreprise de
-                             peinture présente sur la commune de Châteaugiron. <br>
-                            Novice dans le code à cette époque, j'ai utilisé un template acheté sur Elementor 
-                            que j'ai modifié pour arriver à ce résultat.
-                        </p>
-                    </div>
-                </div>  
-            </div>
-            
-        </section>
-
-        <section class="contenu">
-            <div class="container flex-container block-textvideo">
-                <div id="texte-crea">
-                    <div>
-                        <h3>
-                            O Ingenierie
-                        </h3>
-                        <p>Grâce à la confiance accordée par l'agence RennesCom, j'ai eu l'occasion de réaliser
-                            un site web pour l'entreprise O Ingénieurie.<br>
-                            Pour ce site aussi j'ai utilisé un template acheté sur elementor. Je l'ai modifié
-                             à ma guise afin d'obtenir ce visuel.
-
-                        </p>
+                <div id="zone2" class="bouton-fleche">
+                    <div id="fleche2" class="fleche">
+                        <img src="./img/fleche-orange.png" >
                     </div>
                 </div>
-                <div class="vidéo2-real aligner-gauche">
-                    <video class="vidéo2-real" src="./video/oing.mp4" autoplay loop muted >
+                
+                <div class="text-video" id="text-video-2">
+                    <h4 class="white">castelmenuiserie</h4>
+                    <p>Basée à Châteaugiron, cette entreprise de menuiserie est la plus grosse entreprise
+                        avec laquelle j'ai eu la possibilité de travailler.<br>
+                        En effet, lors de mon stage de deuxième année de BTS SIO dans l'agence RennesCom
+                        j'ai eu la chance de refonder leur <a href="https://castelmenuiserie.com/">site web</a>
+                        grâce au CMS WordPress et au plugin Oxygen.</p>
+                </div>
+
+
+                <!-- video 3 -->
+                <div class="flex">
+                    <video class="vidéo3-real" src="./video/lairys.mp4" autoplay loop muted >
+                </div>
+                <div id="zone3" class="bouton-fleche">
+                    <div id="fleche3" class="fleche">
+                        <img src="./img/fleche-orange.png" >
+                    </div>
+                </div>
+                
+                <div class="text-video" id="text-video-3">
+                    <h4 class="white">LayrisDeco</h4>
+                    <p>Durant mon premier stage de BTS, j'ai eu l'opportunité de travailler avec Lairys Déco, entreprise de
+                        peinture présente sur la commune de Châteaugiron. <br>
+                       Novice dans le code à cette époque, j'ai utilisé un template acheté sur Elementor 
+                       que j'ai modifié pour arriver à ce résultat.</p>
+                </div>
+
+
+                <!-- video 4 -->
+                <div class="flex">
+                    <video class="vidéo3-real" src="./video/oing.mp4" autoplay loop muted >
+                </div>
+                <div id="zone4" class="bouton-fleche">
+                    <div id="fleche4" class="fleche">
+                        <img src="./img/fleche-orange.png" >
+                    </div>
+                </div>
+                
+                <div class="text-video" id="text-video-4">
+                    <h4 class="white">O Ingenierie</h4>
+                    <p>Grâce à la confiance accordée par l'agence RennesCom, j'ai eu l'occasion de réaliser
+                        un site web pour l'entreprise O Ingénieurie.<br>
+                        Pour ce site aussi j'ai utilisé un template acheté sur elementor. Je l'ai modifié
+                         à ma guise afin d'obtenir ce visuel.</p>
                 </div>
             </div>
-            
         </section>
+
         <section id="contact">
             <div class="container flex-container">
                 <div class="container">
                     <div>
-                        <h3>Contact</h3>
+                        <h3>Contact</h4>
                         <div class="bordure-orange3"></div>
                     </div>
                     <div class="container">
@@ -177,8 +171,11 @@
     </main>
     <!-- footer  -->
     <footer>
+        <div class="container">
+            
+        </div>
     </footer>
-
+    <script src="/site-main/js/script site.js"></script>
 </body>
 
 </html>

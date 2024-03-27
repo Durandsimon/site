@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +28,7 @@
 
     <!-- Header  -->
     <header>
-        <nav class="container flex-container">
+        <nav class="dark flex-container">
             <div class="flex-container">
                 <a href="./index.html" ><h3>DURAND</h3></a>
                 <a href="./index.html" ><h3 class="titreorange">SIMON</h3></a>
@@ -48,7 +51,8 @@
 
     <!-- main  -->
 
-    <main>
+    <main style="background-color: black;">
+
         <!-- hero -->
         <section id="code">
             <div>
@@ -60,28 +64,32 @@
             </div>
         </section>
 
-        <section class="contenu ">
-            <div class="container flex-container block-textvideo">
-                <div id="texte-crea">
-                    <div>
-                        <h3>
-                            Javascript
-                        </h3>
-                        <p>Durant ma formation à My digital school Rennes j'ai eu l'occasion 
-                            de créer un mini-jeu qui a pour objectif de cliquer sur un arbre afin de gagner des bûches.<br>
-                            Au fur et à mesure que l'on collecte des bûches de bois on peut débloquer des atouts
-                            qui nous permettent d'obtenir plus rapidement du bois. <br>
-                            Vous pouvez tester le jeu <a href="https://durandsimon.github.io/cookie_clicker/" >ici</a>.
+        <section class="contenu-black contenu">
+            <div class="container flex-container2" style="flex-direction: column;">
 
-                        </p>
+                <!-- video 1 -->
+                <div class="flex">
+                    <video class="vidéo3-real" src="./video/cookie.mp4" autoplay loop muted >
+                </div>
+                <div id="zone1" class="bouton-fleche">
+                    <div id="fleche1" class="fleche">
+                        <img src="./img/fleche-orange.png" >
                     </div>
                 </div>
-                <div class="vidéo2-real aligner-gauche">
-                    <video class="vidéo2-real" src="./video/cookie.mp4" autoplay loop muted >
+                
+                <div class="text-video" id="text-video-1">
+                    <h4 class="white">
+                        Javascript
+                    </h4>
+                    <p>Durant ma formation à My digital school Rennes j'ai eu l'occasion 
+                        de créer un mini-jeu qui a pour objectif de cliquer sur un arbre afin de gagner des bûches.<br>
+                        Au fur et à mesure que l'on collecte des bûches de bois on peut débloquer des atouts
+                        qui nous permettent d'obtenir plus rapidement du bois. <br>
+                        Vous pouvez tester le jeu <a href="https://durandsimon.github.io/cookie_clicker/" >ici</a>.</p>
                 </div>
             </div>
-            
         </section>
+
 
         <section id="contact">
             <div class="container flex-container">
@@ -116,7 +124,7 @@
             
         </div>
     </footer>
-
+    <script src="./js/script code.js"></script>
 </body>
 
 </html>
