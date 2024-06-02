@@ -10,11 +10,11 @@ let num = 0;
 
 
 function depliant(){
-    if(num != this.id.substr(4, 1)){
+    if(num != this.id.substr(4, this.id.length-4)){
         click_text_video = 0;
     }
     
-    num = this.id.substr(4, 1);
+    num = this.id.substr(4, this.id.length-4);
     if (click_text_video == 0) {
         document.querySelector("#text-video-"+num).style.display = 'block'
         document.querySelector("#fleche"+num).style.transform = 'rotate(180deg)'
