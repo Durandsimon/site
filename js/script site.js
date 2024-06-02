@@ -4,6 +4,7 @@ document.querySelector("#zone1").addEventListener("click", depliant);
 document.querySelector("#zone2").addEventListener("click", depliant);
 document.querySelector("#zone3").addEventListener("click", depliant);
 document.querySelector("#zone4").addEventListener("click", depliant);
+document.querySelector("#zone5").addEventListener("click", depliant);
 
 
 let click_text_video = 0;
