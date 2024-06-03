@@ -8,22 +8,48 @@ intervalle = setInterval(traitnoir4, 600);
 intervalle = setInterval(traitnoir5, 700);
 
 function traitnoir1() {
-    document.querySelector('#trait1').style.top = '14vw';
+    if(screen.width > 768){
+        document.querySelector('#trait1').style.top = '14vw';
+    }
+    else{
+        document.querySelector('#trait1').style.top = '22vw';
+    }
+    
 }
 
 function traitnoir2() {
-    document.querySelector('#trait2').style.top = '14vw';
+    if(screen.width > 768){
+        document.querySelector('#trait2').style.top = '14vw';
+    }
+    else{
+        document.querySelector('#trait2').style.top = '22vw';
+    }
 }
 
 function traitnoir3() {
-    document.querySelector('#trait3').style.top = '14vw';
+    if(screen.width > 768){
+        document.querySelector('#trait3').style.top = '14vw';
+    }
+    else{
+        document.querySelector('#trait3').style.top = '22vw';
+    }
 }
 
 function traitnoir4() {
-    document.querySelector('#trait4').style.top = '14vw';
+    if(screen.width > 768){
+        document.querySelector('#trait4').style.top = '14vw';
+    }
+    else{
+        document.querySelector('#trait4').style.top = '22vw';
+    }
 }
 
 function traitnoir5() {
-    document.querySelector('#trait5').style.top = '14vw';
+    if(screen.width > 768){
+        document.querySelector('#trait5').style.top = '14vw';
+    }
+    else{
+        document.querySelector('#trait5').style.top = '22vw';
+    }
 }
 
