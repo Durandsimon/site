@@ -88,6 +88,10 @@ a:hover {
   color: #FFF;
 }
 
+#white:hover{
+  color: #FFF;
+}
+
 /* Titre  */
 h1 {
   font-family: "Hind", sans-serif;
