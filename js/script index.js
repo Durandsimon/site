@@ -11,8 +11,11 @@ function traitnoir1() {
     if(screen.width > 768){
         document.querySelector('#trait1').style.top = '14vw';
     }
+    else if(425 > screen.width){
+        document.querySelector('#trait1').style.top = '26vw';
+    }
     else{
-        document.querySelector('#trait1').style.top = '22vw';
+        document.querySelector('#trait1').style.top = '20vw';
     }
     
 }
@@ -21,8 +24,11 @@ function traitnoir2() {
     if(screen.width > 768){
         document.querySelector('#trait2').style.top = '14vw';
     }
+    else if(425 > screen.width){
+        document.querySelector('#trait2').style.top = '26vw';
+    }
     else{
-        document.querySelector('#trait2').style.top = '22vw';
+        document.querySelector('#trait2').style.top = '20vw';
     }
 }
 
@@ -30,8 +36,11 @@ function traitnoir3() {
     if(screen.width > 768){
         document.querySelector('#trait3').style.top = '14vw';
     }
+    else if(425 > screen.width){
+        document.querySelector('#trait3').style.top = '26vw';
+    }
     else{
-        document.querySelector('#trait3').style.top = '22vw';
+        document.querySelector('#trait3').style.top = '20vw';
     }
 }
 
@@ -39,8 +48,11 @@ function traitnoir4() {
     if(screen.width > 768){
         document.querySelector('#trait4').style.top = '14vw';
     }
+    else if(425 > screen.width){
+        document.querySelector('#trait4').style.top = '26vw';
+    }
     else{
-        document.querySelector('#trait4').style.top = '22vw';
+        document.querySelector('#trait4').style.top = '20vw';
     }
 }
 
@@ -48,8 +60,11 @@ function traitnoir5() {
     if(screen.width > 768){
         document.querySelector('#trait5').style.top = '14vw';
     }
+    else if(425 > screen.width){
+        document.querySelector('#trait5').style.top = '26vw';
+    }
     else{
-        document.querySelector('#trait5').style.top = '22vw';
+        document.querySelector('#trait5').style.top = '20vw';
     }
 }
 

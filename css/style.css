@@ -593,4 +593,16 @@ footer a {
     width: 100%;
   }
 
+  .titre-real{
+    -webkit-text-stroke: 0px #fff; 
+    color: white;
+  }
+  #crea .bloc-noir #titre-bloc-noir{
+    -webkit-text-stroke: 0px #fff; 
+    color: white;
+  }
+  #crea .text-de-fond{
+    display: none;
+  }
+
 }/*# sourceMappingURL=style.css.map */
